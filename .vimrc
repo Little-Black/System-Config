@@ -17,6 +17,7 @@
 :set softtabstop=4
 :set autoindent                     "copy indent from current line when starting a new line
 ":set paste                         "disable wired indentation when pasting
+:set number
 
 " Folding
 ":set foldenable
