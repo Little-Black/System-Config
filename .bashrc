@@ -75,7 +75,7 @@ alias grep='grep -G'
 alias fgrep='fgrep -G'
 alias egrep='egrep -G'
 
-alias athena='ssh athene.dialup.mit.edu'
+alias athena='ssh athena.dialup.mit.edu'
 
 # some more ls aliases
 alias ll='ls -alF'
