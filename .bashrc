@@ -68,12 +68,16 @@ xterm*|rxvt*)
 esac
 
 alias ls='ls -G'
+alias tree='tree -C'
 alias dir='dir -G'
 alias vdir='vdir -G'
 
 alias grep='grep -G'
 alias fgrep='fgrep -G'
 alias egrep='egrep -G'
+
+export LSCOLORS=DxCxGxBxExegedabagaced
+export LS_COLORS='di=1;33:fi=0:ln=1;32:pi=1;31:so=1;36:bd=5:cd=5:or=31:mi=0:ex=1;34:*.rpm=90'
 
 alias athena='ssh athena.dialup.mit.edu'
 
