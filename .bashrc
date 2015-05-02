@@ -67,16 +67,15 @@ xterm*|rxvt*)
     ;;
 esac
 
-alias ls='ls -G'
+alias ls='ls --color'
 alias tree='tree -C'
-alias dir='dir -G'
-alias vdir='vdir -G'
+alias dir='dir --color'
+alias vdir='vdir --color'
 
-alias grep='grep -G'
-alias fgrep='fgrep -G'
-alias egrep='egrep -G'
+alias grep='grep --color'
+alias fgrep='fgrep --color'
+alias egrep='egrep --color'
 
-export LSCOLORS=DxCxGxBxExegedabagaced
 export LS_COLORS='di=1;33:fi=0:ln=1;32:pi=1;31:so=1;36:bd=5:cd=5:or=31:mi=0:ex=1;34:*.rpm=90'
 
 alias athena='ssh athena.dialup.mit.edu'
